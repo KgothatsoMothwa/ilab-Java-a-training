@@ -3,6 +3,9 @@ package Chapter4;
 public class GenericMethods {
     public static void main(String[] args) {
         displayNumbers( 5.9,  9.8);
+        GenericMethods.<Integer>displayNumbers(4,6);
+        GenericMethods.<Float>displayNumbers(5.2F,9.5F);
+        GenericMethods.<String>displayNumbers("Blue", "Innocent");
 
     }
     static <T> void displayNumbers(T num1, T num2){

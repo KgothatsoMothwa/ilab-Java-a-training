@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class ArrayManipulation {
+
+/*
     public static void main(String[] args) {
         int[] randomNumbers = new int[20];
         ArrayList<Integer> evenNumbers = new ArrayList<>();
@@ -27,10 +29,11 @@ public class ArrayManipulation {
             }
             System.out.println("Even numbers"+ evenNumbers + " ");
             System.out.println("Odd numbers"+ oddNumbers + " ");
-        }
-//        System.out.println();
-    }
 
+*/
+////        System.out.println();
+//    }
+//
 
 
 }
